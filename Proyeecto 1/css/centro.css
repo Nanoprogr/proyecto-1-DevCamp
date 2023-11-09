@@ -3,23 +3,28 @@
     display: flex;
     flex-direction: row;
     height: 16em;
-    color: #777;
+    color: #c0bebe;
     font-size: 3em;
     margin-bottom: 0;
 	background: #313133; 
 	border: solid #BDBDBD 0; 
-	box-shadow: -18em -6em 20em rgba(0, 0, 0, 0.9) inset; 
-	-webkit-box-shadow: -18em -6em 20em rgba(0, 0, 0, 0.9) inset; 
-	-moz-box-shadow: -18em -6em 20em rgba(0, 0, 0, 0.9) inset;
+	box-shadow: -10em -2em 20em rgba(0, 0, 0, 0.9) inset; 
+	-webkit-box-shadow: -10em -2em 20em rgba(0, 0, 0, 0.9) inset; 
+	-moz-box-shadow: -10em -2em 20em rgba(0, 0, 0, 0.9) inset;
 }
 .centro > .c-izquierda {
     width: 50%;
     height: 10em;
     font-size: 1em;
     margin-left: 0.5em;
-    padding: 1.5em 1em;
+    padding: 1.5em 1.5em 2em 2em;
+    font-weight: 100;
 }
+
 .parrafoa {
+    font-size: 1.15em;
+}
+.parrafob {
  font-size: 0.95em;
 
 }
@@ -33,8 +38,12 @@
     font-size: 0.7em;
     color: white;
     font-weight: bold;
-    margin-top:2.4em;
+    margin-top: 2em;
+  
 
+}
+.centro > .c-derecha > .cpprojets p{
+    margin: 0;
 }
 .cpp {
     color: rgb(134, 178, 233);
@@ -43,10 +52,10 @@
 
 .imagen img {
     width: 18em ;
-    height: 12.5em;
+    height: 13.5em;
     background: #030303; 
 	border: solid #131010 0; 
-	box-shadow: -31px -10px 51px rgba(0, 0, 0, 0.8)  ; 
-	-webkit-box-shadow: -31px -10px 51px rgba(0, 0, 0, 0.8)  ; 
-	-moz-box-shadow: -31px -10px 51px rgba(0, 0, 0, 0.8)  ; 
+	box-shadow: -31px 1px 51px rgba(0, 0, 0, 0.8)  ; 
+	-webkit-box-shadow: -31px 1px 51px rgba(0, 0, 0, 0.8)  ; 
+	-moz-box-shadow: -31px 1px 51px rgba(0, 0, 0, 0.8)  ; 
 }
