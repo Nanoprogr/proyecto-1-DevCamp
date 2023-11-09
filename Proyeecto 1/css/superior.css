@@ -1,0 +1,87 @@
+
+body {
+        font-size: 10px;
+        margin: 0px;
+        font-family: "arial", sans-serif;
+    }
+
+    .superior {
+        height: 4em;
+        background-color: black;
+        color: #cbcbcb;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        padding-bottom: 5em;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    
+    .superior> .logo-Cp img {
+        height: 6em;
+        width: 20em;
+        margin-top: 2em;
+        align-items: center;
+    }
+
+    .superior > .s-izquierda {
+  
+        margin-right: 1em; 
+        margin-top: 0.5em;
+        margin-bottom: 0;
+        color: #fcc33f;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2em;
+        width: 50em;
+     
+    }
+    
+    .superior> .s-izquierda > .explorer  {
+        margin-top: 1.2em;
+        font-size: 1.5em;
+    
+    }
+    .superior > .s-izquierda > .navegador {
+        font-size: 2em;
+        margin-top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 20em;
+    }
+    .superior > .s-izquierda > .navegador > div a {
+        color: white; 
+        text-decoration: none; 
+    }
+    .superior > .s-izquierda > .navegador > div.Spark a {
+        color: gray; 
+        text-decoration: none;
+        padding-right: 1em;
+    }
+    
+    .superior > .s-izquierda >   .navegador > div.Spark a::after {
+        content: "▼"; 
+        font-size: 1.2em; 
+    }
+
+    .superior > .s-derecha {
+        width: 50em;
+        margin-top: 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+ 
+
+.lupa i {
+    background-color: #333;
+    color: gray;
+    padding: 1em;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+
