@@ -18,14 +18,14 @@ body {
     }
     
     .superior> .logo-Cp img {
-        height: 6em;
+        height: 5em;
         width: 20em;
-        margin-top: 2em;
+        margin-top: 3em;
         align-items: center;
     }
 
     .superior > .s-izquierda {
-  
+        font-weight: bold;
         margin-right: 1em; 
         margin-top: 0.5em;
         margin-bottom: 0;
@@ -55,6 +55,10 @@ body {
         text-decoration: none; 
  
     }
+    .superior > .s-izquierda > .navegador > .Spark a{
+        color: #777;
+        font-weight: 600;
+    }
     .superior > .s-izquierda > .navegador > .Spark i {
         color: gray; 
         text-decoration: none;
@@ -69,17 +73,17 @@ body {
         justify-content: space-around;
 
     }
-          .create i {
-            background-color: #444;
-    }
-        .lupa i {
-            align-items: center;
-            color: gray;
-            padding: 0.25em;
-            border-radius: 50%;
-            cursor: pointer;
-            font-size: 4em;
-         
-        }
+  .create i {
+    background-color: #444;
+  }
+.lupa i {
+    align-items: center;
+    color: gray;
+    padding: 0.25em;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 4em;
+ 
+}
 
 
