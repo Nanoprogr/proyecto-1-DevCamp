@@ -1,0 +1,52 @@
+.centro {
+
+    display: flex;
+    flex-direction: row;
+    height: 16em;
+    color: #777;
+    font-size: 3em;
+    margin-bottom: 0;
+	background: #313133; 
+	border: solid #BDBDBD 0; 
+	box-shadow: -18em -6em 20em rgba(0, 0, 0, 0.9) inset; 
+	-webkit-box-shadow: -18em -6em 20em rgba(0, 0, 0, 0.9) inset; 
+	-moz-box-shadow: -18em -6em 20em rgba(0, 0, 0, 0.9) inset;
+}
+.centro > .c-izquierda {
+    width: 50%;
+    height: 10em;
+    font-size: 1em;
+    margin-left: 0.5em;
+    padding: 1.5em 1em;
+}
+.parrafoa {
+ font-size: 0.95em;
+
+}
+.sdp { 
+    /* es para resaltar */
+    color: white;
+    font-weight: bold;
+}
+
+.centro > .c-derecha > .cpprojets {
+    font-size: 0.7em;
+    color: white;
+    font-weight: bold;
+    margin-top:2.4em;
+
+}
+.cpp {
+    color: rgb(134, 178, 233);
+
+}
+
+.imagen img {
+    width: 18em ;
+    height: 12.5em;
+    background: #030303; 
+	border: solid #131010 0; 
+	box-shadow: -31px -10px 51px rgba(0, 0, 0, 0.8)  ; 
+	-webkit-box-shadow: -31px -10px 51px rgba(0, 0, 0, 0.8)  ; 
+	-moz-box-shadow: -31px -10px 51px rgba(0, 0, 0, 0.8)  ; 
+}

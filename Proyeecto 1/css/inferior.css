@@ -1,0 +1,38 @@
+.inferior {
+    background-color: #333;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    border-color: white;
+}
+
+.codepenfor {
+    padding: 0.5em;
+    padding-right: 2.5em;
+}
+
+.codepenfor {
+    border-right: 0.1px solid #888;
+   
+}
+
+.codepenfor:last-child {
+    border-right: none;
+}
+
+
+.codepenfor:first-child {
+    margin-left: 0.25px; 
+}
+
+.cpft,
+.cpfe,
+.cpfp,
+.cpfw {
+    font-size: 1.25em;
+    font-weight: bold;
+}

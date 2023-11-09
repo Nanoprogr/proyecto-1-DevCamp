@@ -1,0 +1,60 @@
+/* botones de la parte superior */
+.create button,
+.log-in button,
+.sign-up button {
+    background-color: #444; 
+    font-size: 18px;
+    color: white; 
+    padding: 15px 20px; 
+    text-decoration: none; 
+    border: none;
+    cursor: pointer; 
+    margin: 5px;
+    font-weight: bold;
+}
+.create button:hover,
+.log-in button:hover,
+.sign-up button:hover {
+    background-color: #333; 
+}
+.lupa i:hover {
+    background-color: #555;
+}
+.flecha-menu {
+    color: green;
+    font-size: 20px;
+}
+
+/* botones de la parte central */
+.centro > .c-izquierda > .botones {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    
+
+}
+.sign-u-f button {
+    background-color: rgb(104, 172, 104); 
+    font-size: 35px;
+    color: black;
+    padding: 15px 20px; 
+    text-decoration: none; 
+    border: none;
+    cursor: pointer; 
+    margin: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.learn-more button {
+    background-color: black; 
+    font-size: 35px;
+    color: rgb(250, 250, 250);
+    padding: 15px 20px; 
+    text-decoration: none; 
+    border: none;
+    cursor: pointer; 
+    margin: 5px;
+    margin-left: 20px;
+    font-weight: bold;
+
+}
