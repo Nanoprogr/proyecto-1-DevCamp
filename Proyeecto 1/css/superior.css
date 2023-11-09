@@ -53,16 +53,12 @@ body {
     .superior > .s-izquierda > .navegador > div a {
         color: white; 
         text-decoration: none; 
+ 
     }
-    .superior > .s-izquierda > .navegador > div.Spark a {
+    .superior > .s-izquierda > .navegador > .Spark i {
         color: gray; 
         text-decoration: none;
         padding-right: 1em;
-    }
-    
-    .superior > .s-izquierda >   .navegador > div.Spark a::after {
-        content: "▼"; 
-        font-size: 1.2em; 
     }
 
     .superior > .s-derecha {
@@ -73,15 +69,17 @@ body {
         justify-content: space-around;
 
     }
- 
-
-.lupa i {
-    background-color: #333;
-    color: gray;
-    padding: 1em;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 2em;
-}
+          .create i {
+            background-color: #444;
+    }
+        .lupa i {
+            align-items: center;
+            color: gray;
+            padding: 0.25em;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 4em;
+         
+        }
 
 
